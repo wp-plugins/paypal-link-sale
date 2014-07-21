@@ -44,7 +44,7 @@ function ppls_activate() {
 		add_option('ppls_term','M');
 }
 function ppls_deactivate() {
-		/*global $wpdb;
+		global $wpdb;
 		$ipn_table = $wpdb->prefix . 'pplsipn';
 		$orders_table = $wpdb->prefix . 'pplsorders';
 		$q='drop table if exists $ipn_table, $orders_table';
@@ -55,7 +55,7 @@ function ppls_deactivate() {
 		delete_option('ppls_price');
 		delete_option('ppls_size');
 		delete_option('ppls_total');
-		delete_option('ppls_term');*/
+		delete_option('ppls_term');
 }
 function ppls_init(){
 		global $wpdb;
