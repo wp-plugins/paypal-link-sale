@@ -43,20 +43,6 @@ function ppls_activate() {
 		add_option('ppls_total',10);
 		add_option('ppls_term','M');
 }
-function ppls_deactivate() {
-		global $wpdb;
-		$ipn_table = $wpdb->prefix . 'pplsipn';
-		$orders_table = $wpdb->prefix . 'pplsorders';
-		$q='drop table if exists $ipn_table, $orders_table';
-		$wpdb->query($q);
-		delete_option('ppls_email');
-		delete_option('ppls_sandbox');
-		delete_option('ppls_currency');
-		delete_option('ppls_price');
-		delete_option('ppls_size');
-		delete_option('ppls_total');
-		delete_option('ppls_term');
-}
 function ppls_init(){
 		global $wpdb;
 		$dwmy=array('D'=>__('Daily','ppls'),'W'=>__('Weekly','ppls'),'M'=>__('Monthly','ppls'),'Y'=>__('Yearly','ppls'));
@@ -100,5 +86,4 @@ require(plugin_dir_path( __FILE__ ).'widget.php');
 add_action( 'plugins_loaded', 'ppls_load_textdomain' );
 add_action('init', 'ppls_init');
 register_activation_hook( __FILE__, 'ppls_activate' );
-register_deactivation_hook( __FILE__, 'ppls_deactivate' );
 ?>
