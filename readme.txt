@@ -1,6 +1,6 @@
 === Paypal Link Sale ===
 
-Contributors: Paypal Link Sale
+Contributors: sunnyverma1984
 Donate link: http://99webtools.com/contribute.html
 Tags: paypal, link sale, link, sale, ipn, subscription, widget, ads, sell ads, monetize, recurring payment, recurring payments, Recurring Subscription, Recurring Subscriptions,dashboard widget, dashboard, subscription, payment
 Requires at least: 2.8
