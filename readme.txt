@@ -67,6 +67,22 @@ Paypal Link Sale plugin is fully automated which automatically manage orders usi
 
 The PayPal Sandbox is a self-contained, virtual testing environment that mimics the live PayPal production environment. It provides a shielded space where you can initiate and watch your application process the requests you make to the PayPal APIs without touching any live PayPal accounts.
 
+= Paypal duplicate invoice ID and how to solve it? =
+
+Paypal by default does not allow duplicate invoices. When you try to pay for a duplicate invoice id, paypal will produce the following error:
+
+`The transaction was refused as a result of a duplicate invoice ID supplied. Attempt with a new invoice ID`
+
+If this were to happen, one of the reasons could be that the configuration in Paypal is set to not accept duplicate invoices. you may receive orders from various places and if the invoice numbers are the same, Paypal recognises there is an invoice duplication.
+
+**Solution**
+
+1. Log-in to your Paypal sandbox account
+2. Click Profile
+3. Under Selling Preferences, click Payment Receiving Preferences
+4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
+Save.
+
 == Changelog ==
 
 = 1.0 =
