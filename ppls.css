@@ -1,0 +1,4 @@
+.pending>td{background:#FFF}
+.active>td{background:#E6F5B4}
+.canceled>td{background:#DFDFDF}
+.expired>td{background:#FFD7D7}
