@@ -15,7 +15,7 @@
       </div>
 	  <div class="alert-success" role="alert"><?php _e('<strong>Thank You!</strong> your order has been placed and link will be activated in next couple of minutes.','ppls'); ?> </div>
 <div class="footer">
-<p>&copy; <?php bloginfo( 'name' ); ?> 2014.</p>
+<p>&copy; <?php bloginfo( 'name' ); echo ' '.date('Y');?></p>
 </div>
 </div>
 </body>

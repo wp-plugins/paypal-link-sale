@@ -72,7 +72,7 @@ else
 ?>
 	  </div>
 <div class="footer">
-<p>&copy; <?php bloginfo( 'name' ); ?> 2014.</p>
+<p>&copy; <?php bloginfo( 'name' ); echo ' '.date('Y');?></p>
 </div>
 </div>
 </body>
