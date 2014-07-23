@@ -2,7 +2,7 @@
 
 Contributors: sunnyverma1984
 Donate link: http://99webtools.com/contribute.html
-Tags: paypal, link sale, link, sale, ipn, subscription, widget, ads, sell ads, monetize, recurring payment, recurring payments, Recurring Subscription, Recurring Subscriptions,dashboard widget, dashboard, subscription, payment
+Tags: paypal, link sale, link, sale, ipn, subscription, widget, ads, sell ads, monetize, recurring payment, recurring payments, Recurring Subscription, Recurring Subscriptions,dashboard widget, dashboard, paypal ipn, subscription, payment, orders
 Requires at least: 2.8
 Tested up to: 3.9.1
 Stable tag: 1.0
