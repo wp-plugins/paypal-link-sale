@@ -1,4 +1,4 @@
-=== Paypal Link Sale ===
+=== Paypal Sell Link Ads ===
 
 Contributors: sunnyverma1984
 Donate link: http://99webtools.com/contribute.html

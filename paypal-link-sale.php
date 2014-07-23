@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Paypal Link Sale
+ * Plugin Name: Paypal Sell Link Ads
  * Plugin URI: 
  * Description: Monetize your blog by selling text links using paypal subscriptions
  * Version: 1.0
