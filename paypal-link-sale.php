@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Paypal Sell Link Ads
- * Plugin URI: 
+ * Plugin URI: http://wordpress.org/plugins/paypal-link-sale/
  * Description: Monetize your blog by selling text links using paypal subscriptions
  * Version: 1.0
  * Text Domain: ppls
