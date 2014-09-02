@@ -1,7 +1,7 @@
 === Paypal Sell Link Ads ===
 
 Contributors: sunnyverma1984
-Donate link: http://99webtools.com/contribute.html
+Donate link: http://99webtools.com/blog/contribute/
 Tags: paypal, link sale, link, sale, ipn, subscription, widget, ads, sell ads, monetize, recurring payment, recurring payments, Recurring Subscription, Recurring Subscriptions,dashboard widget, dashboard, paypal ipn, subscription, payment, orders
 Requires at least: 2.8
 Tested up to: 3.9.1
